@@ -14,9 +14,42 @@ public class Ejercicio1
         
         do
         {
-            opcion=pedirNumero(menu);    
+            opcion=pedirNumero(menu); 
+            switch(opcion)
+            {
+                case 1:
+                    int num1=pedirNumero("Ingrese un Numero Entero");
+                    int num2=pedirNumero("Ingrese un 2do Numero Entero");
+                    int suma=num1+num2;
+                    mostrarMensaje("La suma de "+num1+" y "+num2+" es "+suma);
+                break;
+                
+                case 2:
+                    num1=pedirNumero("Ingrese un Numero Entero");
+                    num2=pedirNumero("Ingrese un 2do Numero Entero");
+                    int resta=num1-num2;
+                    mostrarMensaje("La Resta de "+num1+" y "+num2+" es "+resta);
+                break;
+                
+                case 3:
+                    num1=pedirNumero("Ingrese un Numero Entero");
+                    num2=pedirNumero("Ingrese un 2do Numero Entero");
+                    int mult=num1*num2;
+                    mostrarMensaje("La Multiplicacion de "+num1+" y "+num2+" es "+mult);
+                break;
+                
+                case 4:
+                    mostrarMensaje("Adios");
+                break;
+            }
         }while(opcion!=4);
     }
+    //Metodo que recibe una cadena y lo muestra
+    public static void mostrarMensaje(String msg)
+    {
+        JOptionPane.showMessageDialog(null,msg);
+    }
+    //Funcion que pide y valida un numero y lo retorna
     public static int pedirNumero(String msg)
     {
         int n=0;

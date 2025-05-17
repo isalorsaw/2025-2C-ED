@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=EjercicioArreglo
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=a\ d\ h
+comment2.target=void\ llenarAleatorio(int[],\ int,\ int)
+comment3.params=d\ h
+comment3.target=int\ generaAleatorio(int,\ int)
+comment4.params=a
+comment4.target=void\ llenarXusuario(int[])
+comment5.params=a\ n
+comment5.target=void\ rellenar(int[],\ int)
+comment6.params=a
+comment6.target=java.lang.String\ imprimir(int[])
+comment7.params=msg
+comment7.target=int\ pedirNumero(java.lang.String)
+comment8.params=msg
+comment8.target=void\ mostrarMensaje(java.lang.String)
+numComments=9
