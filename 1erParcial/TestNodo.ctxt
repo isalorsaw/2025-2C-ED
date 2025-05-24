@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=TestNodo
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=n\ u\ codigo
+comment2.target=Nodo\ buscar(Nodo[],\ int,\ int)
+comment3.params=n\ u
+comment3.target=void\ imprimirNodos(Nodo[],\ int)
+numComments=4

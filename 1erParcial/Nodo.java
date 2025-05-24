@@ -17,6 +17,16 @@ public class Nodo
         this.nombre=nombre;
         this.edad=edad;
     }
+    public void editar()
+    {
+        nombre=FM.pedirCadena("Ingrese el Nombre del Alumno");
+        edad=FM.pedirNumero("Ingrese la Edad del Alumno");
+    }
+    public boolean equals(int codigo)
+    {
+        if(this.codigo==codigo)return true;
+        else return false;
+    }
     public String toString()
     {
         return "Codigo: "+codigo+" Nombre: "+nombre+" Edad: "+edad;

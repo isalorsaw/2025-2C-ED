@@ -28,7 +28,7 @@ public class FM
         {
              try
              {
-                cadena=JOptionPane.showInputDialog("Ingrese una Cadena");
+                cadena=JOptionPane.showInputDialog(msg);
                 if(cadena.length()>0)seguir=false;
              }
              catch(Exception exp)
