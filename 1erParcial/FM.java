@@ -22,7 +22,22 @@ public class FM
     }
     public static String pedirCadena(String msg)
     {
-        return "";
+        String cadena="";
+        boolean seguir=true;
+        do
+        {
+             try
+             {
+                cadena=JOptionPane.showInputDialog("Ingrese una Cadena");
+                if(cadena.length()>0)seguir=false;
+             }
+             catch(Exception exp)
+             {
+                 mostrarMensaje("Error");
+             }
+        }while(seguir);
+        
+        return cadena;
     }
     //Metodo que recibe una cadena y lo muestra
     public static void mostrarMensaje(String msg)

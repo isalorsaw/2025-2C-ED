@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Nodo
+comment1.params=
+comment1.target=Nodo()
+comment2.params=codigo\ nombre\ edad
+comment2.target=Nodo(int,\ java.lang.String,\ int)
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+numComments=5
